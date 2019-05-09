@@ -32,7 +32,7 @@ test:
     - adaptive_scheduler
 
 about:
-  home: http://github.com/basnijholt/adaptive_scheduler
+  home: http://github.com/basnijholt/adaptive-scheduler
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
