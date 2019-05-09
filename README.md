@@ -1,7 +1,7 @@
 About adaptive-scheduler
 ========================
 
-Home: http://github.com/basnijholt/adaptive_scheduler
+Home: http://github.com/basnijholt/adaptive-scheduler
 
 Package license: BSD-3-Clause
 
