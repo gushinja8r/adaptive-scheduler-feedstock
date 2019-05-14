@@ -18,7 +18,7 @@ also don't want to use dask or ipyparallel inside a job
 script because they write job scripts on their own.
 Having a job script that runs code that creates job
 scripts...
-With adaptive_scheduler you only need to define the
+With adaptive-scheduler you only need to define the
 learners and then it takes care of the running
 (and restarting) of the jobs on the cluster.
 
