@@ -22,6 +22,7 @@ requirements:
   run:
     - python
     - adaptive
+    - dill
     - mpi4py
     - pyzmq
     - structlog
