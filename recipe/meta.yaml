@@ -1,5 +1,5 @@
 {% set name = "adaptive-scheduler" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adaptive_scheduler-{{ version }}.tar.gz
-  sha256: af5af2947ad497ad8c143e3212d4b0bcbaeb693ba5b6180c06d8a9a7cbbc5b7f
+  sha256: d394fac26f97fb25adb2f7850184f7d7854f3c919fc49ea967df7521a3ceeb0e
 
 build:
   number: 0
@@ -27,6 +27,7 @@ requirements:
     - structlog
     - tinydb
     - toolz
+    - tqdm
 
 test:
   imports:
