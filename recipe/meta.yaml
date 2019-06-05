@@ -27,6 +27,7 @@ requirements:
     - structlog
     - tinydb
     - toolz
+    - tqdm
 
 test:
   imports:
