@@ -1,5 +1,5 @@
 {% set name = "adaptive-scheduler" %}
-{% set version = "0.7.2" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -21,11 +21,15 @@ requirements:
     - pip
   run:
     - python
-    - adaptive
+    - mpich
+    - adaptive>=0.11
+    - cloudpickle
     - dill
     - ipyparallel
-    - mpich
+    - jinja2
+    - loky
     - mpi4py
+    - numpy
     - pandas
     - psutil
     - pyzmq
@@ -33,7 +37,6 @@ requirements:
     - tinydb
     - toolz
     - tqdm
-    - pyzmq
 
 test:
   imports:
