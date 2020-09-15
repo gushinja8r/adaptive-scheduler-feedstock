@@ -10,7 +10,7 @@ source:
   sha256: 7685d2f4085c81148d8107f9a95938a4e3329950081fd99db1eac73bc08350e7
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   skip: true  # [py<37]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
@@ -21,14 +21,15 @@ requirements:
     - pip
   run:
     - python
-    - mpich
     - adaptive >=0.11
     - cloudpickle
     - dill
     - ipyparallel
+    - ipywidgets
     - jinja2
     - loky
     - mpi4py
+    - mpich
     - numpy
     - pandas
     - psutil
