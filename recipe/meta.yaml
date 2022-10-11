@@ -1,5 +1,5 @@
 {% set name = "adaptive-scheduler" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adaptive_scheduler-{{ version }}.tar.gz
-  sha256: 9b929f5c4cfab0256a852d22d11ee5aa712e9205c9ec77a4987e0a956a4f4b3a
+  sha256: 956de4a9768d388ca6442d668e7735a73381c4bcb4b53ed32ca4859e56453f47
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python
-    - adaptive >=0.11
+    - adaptive >=0.14.1
     - cloudpickle
     - dill
     - ipyparallel
