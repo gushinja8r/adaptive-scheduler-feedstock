@@ -1,11 +1,11 @@
-About adaptive-scheduler
-========================
+About adaptive-scheduler-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/adaptive-scheduler-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/basnijholt/adaptive-scheduler
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/adaptive-scheduler-feedstock/blob/main/LICENSE.txt)
 
 Summary: An asynchronous scheduler for Adaptive
 
