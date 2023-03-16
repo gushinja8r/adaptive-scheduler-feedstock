@@ -33,6 +33,7 @@ requirements:
     - numpy
     - pandas
     - psutil
+    - pyarrow
     - pyzmq
     - structlog
     - tinydb
