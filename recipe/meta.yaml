@@ -37,6 +37,7 @@ requirements:
     - pyzmq
     - structlog
     - tinydb
+    - rich
     - toolz
     - tqdm
 
