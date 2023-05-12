@@ -10,7 +10,7 @@ source:
   sha256: 964f5348448d0ea351b19670b9e2f867b7af541c8c2677c73a40451fa63aac64
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   skip: true  # [py<38]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
@@ -27,20 +27,20 @@ requirements:
     - dill
     - ipyparallel
     - ipywidgets
-    - jinja2
+    - itables
     - loky
-    - mpi4py
-    - mpich
     - numpy
     - pandas
     - psutil
     - pyarrow
     - pyzmq
-    - structlog
     - rich
+    - structlog
     - toolz
     - tqdm
     - versioningit
+    - mpi4py
+    - mpich
 
 test:
   imports:
