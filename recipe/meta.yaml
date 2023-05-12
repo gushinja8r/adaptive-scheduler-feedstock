@@ -19,6 +19,7 @@ requirements:
   host:
     - python
     - pip
+    - versioningit
   run:
     - python
     - adaptive >=0.14.1
@@ -39,6 +40,7 @@ requirements:
     - rich
     - toolz
     - tqdm
+    - versioningit
 
 test:
   imports:
