@@ -235,4 +235,5 @@ Feedstock Maintainers
 =====================
 
 * [@basnijholt](https://github.com/basnijholt/)
+* [@jbweston](https://github.com/jbweston/)
 
